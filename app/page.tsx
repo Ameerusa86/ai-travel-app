@@ -1,9 +1,13 @@
 "use client";
 
-import Hero from "@/components/Helper/Hero";
-import MobileNav from "@/components/Helper/MobileNav";
-import Navbar from "@/components/Helper/Navbar";
-import TopDestination from "@/components/Helper/TopDestination";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Hotels from "@/components/Hotels";
+import MobileNav from "@/components/MobileNav";
+import Navbar from "@/components/Navbar";
+import Reviews from "@/components/Reviews";
+import TopDestination from "@/components/TopDestination";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -19,6 +23,14 @@ const HomePage = () => {
       <Hero />
       {/* Top Destinations */}
       <TopDestination />
+      {/* Hotels */}
+      <Hotels />
+      {/* Reviews */}
+      <Reviews />
+      {/* Contact */}
+      <Contact />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

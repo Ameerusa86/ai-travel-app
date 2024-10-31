@@ -22,4 +22,10 @@
   .heading {
     @apply text-center text-[#333] text-[22px] sm:text-[30px] md:text-[38px] font-bold capitalize;
   }
+  .destination__h1 {
+    @apply text-black mt-[1rem] text-[20px] text-center font-semibold capitalize;
+  }
+  .destination__p {
+    @apply text-black mt-[1rem] text-[17px] text-center opacity-70 font-semibold capitalize;
+  }
 }
